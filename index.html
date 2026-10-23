@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ViShruTa – Digital Technology Solutions | Industrial AI, Automation, IoT & Traceability</title>
+  <meta name="description" content="ViShruTa provides award-grade Industrial Automation, Industrial AI, IoT Connectivity, Traceability & Control Solutions. ISO 27001 Certified Company based in Bangalore, India.">
+  <meta name="keywords" content="ViShruTa, Industrial Automation, Industrial AI, IoT, Traceability, SETU, VarNa, ChatuR, Marga Chinh, PLC Panel Wiring, SCADA, Bangalore">
+  <meta name="author" content="ViShruTa">
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="ViShruTa – Digital Technology Solutions">
+  <meta property="og:description" content="Smart Solutions. Stronger Industries. Empowering Businesses with Intelligent Technology for a Smarter Tomorrow.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.vishruta.co.in">
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23050B18'/%3E%3Cpath d='M6 10h6l4 12 4-12h6' stroke='%23E10600' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='24' cy='10' r='2' fill='%2300F0FF'/%3E%3C/svg%3E">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress"></div>
+
+  <!-- Main Navigation Header -->
+  <header class="header">
+    <div class="container navbar">
+      <a href="index.html" class="logo-brand" aria-label="ViShruTa Home">
+        <img src="images/logo.png" alt="ViShruTa – Digital Technology Solutions" class="logo-img">
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="solutions.html" class="nav-link">Solutions</a></li>
+          <li class="nav-item">
+            <a href="products.html" class="nav-link">
+              Products
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="product-setu.html" class="dropdown-link"><span style="color:var(--product-setu)">●</span> SETU (Secured Tracking)</a></li>
+              <li><a href="product-varna.html" class="dropdown-link"><span style="color:var(--product-varna)">●</span> VarNa (Character OCR)</a></li>
+              <li><a href="product-chatur.html" class="dropdown-link"><span style="color:var(--product-chatur)">●</span> ChatuR (Human Detection)</a></li>
+              <li><a href="product-marga-chinh.html" class="dropdown-link"><span style="color:var(--product-marga)">●</span> Marga Chinh (Track & Trace)</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="industries.html" class="nav-link">Industries</a></li>
+          <li class="nav-item"><a href="success-stories.html" class="nav-link">Success Stories</a></li>
+          <li class="nav-item"><a href="control-instrumentation.html" class="nav-link">C &amp; I</a></li>
+          <li class="nav-item"><a href="technology.html" class="nav-link">Technology</a></li>
+          <li class="nav-item"><a href="clients.html" class="nav-link">Clients</a></li>
+          <li class="nav-item"><a href="contact.html" class="btn btn-primary btn-sm">Talk to Us</a></li>
+        </ul>
+      </nav>
+
+      <button class="mobile-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <canvas id="network-canvas"></canvas>
+
+    <div class="container hero-content">
+      <div class="hero-badge-wrap">
+        <span class="badge badge-iso">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          ISO 27001 CERTIFIED COMPANY
+        </span>
+        <span class="badge badge-red">
+          <span class="pulse-security" style="display:inline-block;width:6px;height:6px;border-radius:50%;background:#FF4D4D;margin-right:4px;"></span>
+          INFORMATION SECURITY MANAGEMENT
+        </span>
+      </div>
+
+      <h1 class="hero-title">
+        SMART SOLUTIONS.<br>
+        <span class="text-gradient-accent">STRONGER INDUSTRIES.</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        Empowering Businesses with Intelligent Technology for a Smarter Tomorrow. End-to-end integration across Industrial AI, Automation, Traceability, and IoT.
+      </p>
+
+      <div class="hero-actions">
+        <a href="solutions.html" class="btn btn-primary">
+          Explore Solutions
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="contact.html" class="btn btn-secondary">
+          Talk to Us
+        </a>
+      </div>
+
+      <!-- Floating Tech Nodes from PDF Slide 1 -->
+      <div class="hero-nodes">
+        <div class="hero-node-item floating-anim-1">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm1 14.93V17a1 1 0 01-2 0v-.07A7.003 7.003 0 015.07 11H5a1 1 0 010-2h.07A7.003 7.003 0 0111 3.07V3a1 1 0 012 0v.07A7.003 7.003 0 0118.93 9H19a1 1 0 010 2h-.07A7.003 7.003 0 0113 16.93zM12 8a4 4 0 104 4 4 4 0 00-4-4z"/></svg>
+          Industrial AI
+        </div>
+        <div class="hero-node-item floating-anim-2">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8V4m0 16v-4m8-4h-4M4 12h4m11.314-5.657l-2.828 2.828M7.515 16.485l-2.828 2.828m11.314 0l-2.828-2.828M7.515 7.515L4.686 4.686"/></svg>
+          Automation
+        </div>
+        <div class="hero-node-item floating-anim-3">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+          Traceability
+        </div>
+        <div class="hero-node-item floating-anim-4">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12.55a11 11 0 0114.08 0M1.42 9a16 16 0 0121.16 0M8.53 16.11a6 6 0 016.95 0M12 20h.01"/></svg>
+          IoT Connectivity
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Animated Numerical Stats Strip -->
+  <section class="stats-strip">
+    <div class="container">
+      <div class="stats-card-grid">
+        <div class="stat-box">
+          <div class="stat-number"><span class="counter" data-target="50">0</span><span class="plus">+</span></div>
+          <div class="stat-label">Years of Collective Experience</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-number"><span class="counter" data-target="30">0</span><span class="plus">+</span></div>
+          <div class="stat-label">Projects Successfully Delivered</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-number">ISO <span style="color:var(--accent-cyan);margin-left:6px;">27001</span></div>
+          <div class="stat-label">Certified for Information Security</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-number"><span class="counter" data-target="15">0</span><span class="plus">+</span></div>
+          <div class="stat-label">Enterprise Clients Across India</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Two Core Pillars (Slide 2) -->
+  <section class="section" style="background: rgba(4, 9, 20, 0.6);">
+    <div class="container">
+      <div class="section-title-wrap text-center" style="text-align: center;">
+        <span class="section-tag">Integrated Core Capabilities</span>
+        <h2 class="section-title">SMART INDUSTRIAL AUTOMATION &amp; DIGITAL SOLUTIONS</h2>
+        <p class="section-desc" style="margin: 0 auto;">Integrated Software, Control &amp; Instrumentation Solutions for Smarter Manufacturing.</p>
+      </div>
+
+      <div class="bento-grid">
+        <!-- 01 Software Solutions -->
+        <div class="col-6">
+          <div class="glass-card tilt-card" style="height: 100%;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.5rem;">
+              <span class="badge" style="background:rgba(30,144,255,0.15); border-color:var(--accent-blue); color:#60A5FA; font-size:1.1rem; padding:0.4rem 1rem;">01</span>
+              <span class="badge" style="color:var(--accent-cyan);">AUTOMATE • INTEGRATE</span>
+            </div>
+            <h3 style="color:#FFFFFF; margin-bottom:0.75rem;">SOFTWARE SOLUTIONS</h3>
+            <p style="color:var(--text-secondary); margin-bottom:1.75rem;">Intelligent software solutions for visibility, traceability and smarter decision-making.</p>
+            
+            <div style="display:grid; grid-template-columns:repeat(2, 1fr); gap:1rem;">
+              <div style="background:rgba(255,255,255,0.03); padding:1rem; border-radius:10px; border:1px solid rgba(255,255,255,0.06);">
+                <div style="color:var(--accent-cyan); font-weight:700; font-size:0.95rem; margin-bottom:0.25rem;">PLC / HMI / SCADA</div>
+                <div style="font-size:0.82rem; color:var(--text-muted);">Step 7, TIA Portal, RS Logix, EcoStruxure, GX Works</div>
+              </div>
+              <div style="background:rgba(255,255,255,0.03); padding:1rem; border-radius:10px; border:1px solid rgba(255,255,255,0.06);">
+                <div style="color:var(--accent-cyan); font-weight:700; font-size:0.95rem; margin-bottom:0.25rem;">MES &amp; Traceability</div>
+                <div style="font-size:0.82rem; color:var(--text-muted);">Shop-floor execution, barcode &amp; RFID serialization</div>
+              </div>
+              <div style="background:rgba(255,255,255,0.03); padding:1rem; border-radius:10px; border:1px solid rgba(255,255,255,0.06);">
+                <div style="color:var(--accent-cyan); font-weight:700; font-size:0.95rem; margin-bottom:0.25rem;">Industrial Software</div>
+                <div style="font-size:0.82rem; color:var(--text-muted);">Custom desktop portals, audit logging &amp; interlocks</div>
+              </div>
+              <div style="background:rgba(255,255,255,0.03); padding:1rem; border-radius:10px; border:1px solid rgba(255,255,255,0.06);">
+                <div style="color:var(--accent-cyan); font-weight:700; font-size:0.95rem; margin-bottom:0.25rem;">Data Analytics &amp; IoT</div>
+                <div style="font-size:0.82rem; color:var(--text-muted);">Smart factory OEE, live dashboards &amp; telemetry</div>
+              </div>
+            </div>
+
+            <div style="margin-top:2rem;">
+              <a href="solutions.html" class="btn btn-secondary btn-sm" style="width:100%;">Explore Software Solutions &rarr;</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 02 Control & Instrumentation -->
+        <div class="col-6">
+          <div class="glass-card tilt-card" style="height: 100%;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.5rem;">
+              <span class="badge" style="background:rgba(0,240,255,0.15); border-color:var(--accent-cyan); color:var(--accent-cyan); font-size:1.1rem; padding:0.4rem 1rem;">02</span>
+              <span class="badge" style="color:#60A5FA;">OPTIMIZE • DELIVER</span>
+            </div>
+            <h3 style="color:#FFFFFF; margin-bottom:0.75rem;">CONTROL &amp; INSTRUMENTATION</h3>
+            <p style="color:var(--text-secondary); margin-bottom:1.75rem;">Reliable control systems and precision instrumentation for efficient operations.</p>
+            
+            <div style="display:grid; grid-template-columns:repeat(2, 1fr); gap:1rem;">
+              <div style="background:rgba(255,255,255,0.03); padding:1rem; border-radius:10px; border:1px solid rgba(255,255,255,0.06);">
+                <div style="color:var(--accent-blue); font-weight:700; font-size:0.95rem; margin-bottom:0.25rem;">PLC &amp; Control Systems</div>
+                <div style="font-size:0.82rem; color:var(--text-muted);">DCS, Motion Control &amp; automated machine interlocks</div>
+              </div>
+              <div style="background:rgba(255,255,255,0.03); padding:1rem; border-radius:10px; border:1px solid rgba(255,255,255,0.06);">
+                <div style="color:var(--accent-blue); font-weight:700; font-size:0.95rem; margin-bottom:0.25rem;">HMI &amp; SCADA Displays</div>
+                <div style="font-size:0.82rem; color:var(--text-muted);">Industrial PCs, 65" LED Andon, touchscreens</div>
+              </div>
+              <div style="background:rgba(255,255,255,0.03); padding:1rem; border-radius:10px; border:1px solid rgba(255,255,255,0.06);">
+                <div style="color:var(--accent-blue); font-weight:700; font-size:0.95rem; margin-bottom:0.25rem;">Field Instrumentation</div>
+                <div style="font-size:0.82rem; color:var(--text-muted);">Pressure, Temp, Flow, Level, Proximity &amp; Limit switches</div>
+              </div>
+              <div style="background:rgba(255,255,255,0.03); padding:1rem; border-radius:10px; border:1px solid rgba(255,255,255,0.06);">
+                <div style="color:var(--accent-blue); font-weight:700; font-size:0.95rem; margin-bottom:0.25rem;">Control Panels &amp; I/O</div>
+                <div style="font-size:0.82rem; color:var(--text-muted);">Neat wiring, standard compliance, VFDs &amp; junction boxes</div>
+              </div>
+            </div>
+
+            <div style="margin-top:2rem;">
+              <a href="control-instrumentation.html" class="btn btn-secondary btn-sm" style="width:100%;">View Control &amp; Instrumentation &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What We Solve (Slide 3) -->
+  <section class="section">
+    <div class="container">
+      <div class="section-title-wrap">
+        <span class="section-tag">Critical Challenges Handled</span>
+        <h2 class="section-title">WHAT WE SOLVE</h2>
+        <p class="section-desc">
+          We address critical manufacturing challenges that impact productivity, efficiency and business growth. We transform these challenges into opportunities with Smart Technology, Intelligent Automation, and Measurable Results.
+        </p>
+      </div>
+
+      <div class="bento-grid">
+        <!-- Downtime -->
+        <div class="col-4">
+          <div class="problem-card">
+            <div class="problem-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h3 class="problem-title">DOWNTIME</h3>
+            <p class="problem-desc">Unexpected machine failures and unplanned stoppages lead to production losses and missed deadlines.</p>
+          </div>
+        </div>
+
+        <!-- Manual Processes -->
+        <div class="col-4">
+          <div class="problem-card">
+            <div class="problem-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            </div>
+            <h3 class="problem-title">MANUAL PROCESSES</h3>
+            <p class="problem-desc">Time-consuming manual tasks increase errors, reduce efficiency and limit operational scalability.</p>
+          </div>
+        </div>
+
+        <!-- Poor Traceability -->
+        <div class="col-4">
+          <div class="problem-card">
+            <div class="problem-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </div>
+            <h3 class="problem-title">POOR TRACEABILITY</h3>
+            <p class="problem-desc">Lack of real-time visibility across the supply chain makes tracking, recalls and compliance difficult.</p>
+          </div>
+        </div>
+
+        <!-- Security -->
+        <div class="col-6">
+          <div class="problem-card">
+            <div class="problem-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+            </div>
+            <h3 class="problem-title">SECURITY</h3>
+            <p class="problem-desc">Unauthorized access, data breaches and system vulnerabilities put critical industrial operations at risk.</p>
+          </div>
+        </div>
+
+        <!-- Quality -->
+        <div class="col-6">
+          <div class="problem-card">
+            <div class="problem-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <h3 class="problem-title">QUALITY</h3>
+            <p class="problem-desc">Inconsistent quality, defects and rework lead to higher manufacturing costs and dissatisfied customers.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Suite Showcase (Slide 7) -->
+  <section class="section" style="background: radial-gradient(circle at 50% 50%, #071329 0%, #030712 100%);">
+    <div class="container">
+      <div class="section-title-wrap text-center" style="text-align: center;">
+        <span class="section-tag">Purpose-Built Platforms</span>
+        <h2 class="section-title">INTRODUCING OUR INNOVATIVE PRODUCT SUITE</h2>
+        <p class="section-desc" style="margin: 0 auto;">Engineered to solve real-world industrial challenges across automation, vision AI, security and supply chain visibility.</p>
+      </div>
+
+      <div class="bento-grid">
+        <!-- SETU -->
+        <div class="col-6">
+          <div class="product-card product-card-setu">
+            <div class="product-header">
+              <div class="product-brand-title">
+                <span class="product-name" style="color:var(--product-setu);">SETU</span>
+                <span class="badge" style="background:rgba(30,144,255,0.12); color:#60A5FA; border-color:rgba(30,144,255,0.3);">SECURITY</span>
+              </div>
+              <div class="product-subtitle">Secured Unified Tracking Portal</div>
+            </div>
+            <p class="product-tagline">Software platform for secure monitoring, OTP-based control, email alerts and real-time activity logging.</p>
+            <ul class="product-bullets">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Blocks specific UI elements/actions based on pre-configured images or buttons</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> OTP-based Supervision Control (QR code &amp; email delivery)</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Tamper-proof audit logs exportable to Excel</li>
+            </ul>
+            <a href="product-setu.html" class="btn btn-secondary btn-sm" style="align-self: flex-start;">Explore SETU Details &rarr;</a>
+          </div>
+        </div>
+
+        <!-- VarNa -->
+        <div class="col-6">
+          <div class="product-card product-card-varna">
+            <div class="product-header">
+              <div class="product-brand-title">
+                <span class="product-name" style="color:var(--product-varna);">VarNa</span>
+                <span class="badge" style="background:rgba(0,230,118,0.12); color:#4ADE80; border-color:rgba(0,230,118,0.3);">VISION AI</span>
+              </div>
+              <div class="product-subtitle">Smart Character Recognition System</div>
+            </div>
+            <p class="product-tagline">AI-powered system for accurate text recognition from images under challenging conditions with minimal manual input.</p>
+            <ul class="product-bullets">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Recognizes text by simply drawing a box</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Handles metal embossing, engraving, deformed &amp; low contrast</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Machine learning model for variable fonts, logos &amp; symbols</li>
+            </ul>
+            <a href="product-varna.html" class="btn btn-secondary btn-sm" style="align-self: flex-start;">Explore VarNa Details &rarr;</a>
+          </div>
+        </div>
+
+        <!-- ChatuR -->
+        <div class="col-6">
+          <div class="product-card product-card-chatur">
+            <div class="product-header">
+              <div class="product-brand-title">
+                <span class="product-name" style="color:var(--product-chatur);">ChatuR</span>
+                <span class="badge" style="background:rgba(168,85,247,0.12); color:#C084FC; border-color:rgba(168,85,247,0.3);">DETECTION AI</span>
+              </div>
+              <div class="product-subtitle">Smart Human Detection System</div>
+            </div>
+            <p class="product-tagline">Intelligent human detection and zone monitoring system with real-time alerts, multi-camera support and low-light accuracy.</p>
+            <ul class="product-bullets">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Real-time geofenced perimeter monitoring &amp; unauthorized entry alerts</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Low-light, infrared &amp; thermal imaging support</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> False alarm reduction filtering out animals &amp; shadows</li>
+            </ul>
+            <a href="product-chatur.html" class="btn btn-secondary btn-sm" style="align-self: flex-start;">Explore ChatuR Details &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Marga Chinh -->
+        <div class="col-6">
+          <div class="product-card product-card-marga">
+            <div class="product-header">
+              <div class="product-brand-title">
+                <span class="product-name" style="color:var(--product-marga);">Marga Chinh</span>
+                <span class="badge" style="background:rgba(255,107,0,0.12); color:#FB923C; border-color:rgba(255,107,0,0.3);">TRACEABILITY</span>
+              </div>
+              <div class="product-subtitle">Track &amp; Trace Platform</div>
+            </div>
+            <p class="product-tagline">End-to-end traceability platform using RFID/QR, real-time monitoring, analytics and alerts across the entire supply chain.</p>
+            <ul class="product-bullets">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Full farm-to-fork and component traceability from origin to consumer</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> RFID tags, QR codes, handhelds &amp; IoT gateway integration</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Cloud analytics dashboard with instant counterfeit protection</li>
+            </ul>
+            <a href="product-marga-chinh.html" class="btn btn-secondary btn-sm" style="align-self: flex-start;">Explore Marga Chinh Details &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Infinite Client Logo Marquee (Slide 23) -->
+  <section class="section-tight" style="border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+    <div class="container text-center" style="margin-bottom: 1.5rem; text-align: center;">
+      <span class="section-tag">Trusted By Global Industry Leaders</span>
+      <h3 style="font-size: 1.35rem; color: var(--text-secondary); font-weight: 500;">
+        Partnering with Fortune 500 &amp; Manufacturing Giants Across India &amp; Globally
+      </h3>
+    </div>
+
+    <div class="marquee-container">
+      <div class="marquee-track">
+        <div class="client-logo-item"><span class="client-logo-text">LARSEN &amp; TOUBRO</span></div>
+        <div class="client-logo-item"><span class="client-logo-text" style="color:#E10600;">KIA MOTORS</span></div>
+        <div class="client-logo-item"><span class="client-logo-text">TOYOTA</span></div>
+        <div class="client-logo-item"><span class="client-logo-text">VINFAST</span></div>
+        <div class="client-logo-item"><span class="client-logo-text">ADITYA BIRLA GROUP</span></div>
+        <div class="client-logo-item"><span class="client-logo-text">DAIKIN</span></div>
+        <div class="client-logo-item"><span class="client-logo-text">JEENI MILLET</span></div>
+        <div class="client-logo-item"><span class="client-logo-text">DAIFUKU</span></div>
+        <div class="client-logo-item"><span class="client-logo-text">MARUTI SUZUKI</span></div>
+        <div class="client-logo-item"><span class="client-logo-text" style="color:#00F0FF;">SIEMENS</span></div>
+        <div class="client-logo-item"><span class="client-logo-text">AMARA RAJA</span></div>
+        <div class="client-logo-item"><span class="client-logo-text" style="color:#00E676;">SCHNEIDER ELECTRIC</span></div>
+        <div class="client-logo-item"><span class="client-logo-text">KUSHAGRAMATI</span></div>
+        <!-- Duplicate for continuous seamless marquee loop -->
+        <div class="client-logo-item"><span class="client-logo-text">LARSEN &amp; TOUBRO</span></div>
+        <div class="client-logo-item"><span class="client-logo-text" style="color:#E10600;">KIA MOTORS</span></div>
+        <div class="client-logo-item"><span class="client-logo-text">TOYOTA</span></div>
+        <div class="client-logo-item"><span class="client-logo-text">VINFAST</span></div>
+        <div class="client-logo-item"><span class="client-logo-text">ADITYA BIRLA GROUP</span></div>
+        <div class="client-logo-item"><span class="client-logo-text">DAIKIN</span></div>
+        <div class="client-logo-item"><span class="client-logo-text">JEENI MILLET</span></div>
+        <div class="client-logo-item"><span class="client-logo-text">DAIFUKU</span></div>
+        <div class="client-logo-item"><span class="client-logo-text">MARUTI SUZUKI</span></div>
+        <div class="client-logo-item"><span class="client-logo-text" style="color:#00F0FF;">SIEMENS</span></div>
+        <div class="client-logo-item"><span class="client-logo-text">AMARA RAJA</span></div>
+        <div class="client-logo-item"><span class="client-logo-text" style="color:#00E676;">SCHNEIDER ELECTRIC</span></div>
+        <div class="client-logo-item"><span class="client-logo-text">KUSHAGRAMATI</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Case Studies Preview (Slide 13-19) -->
+  <section class="section">
+    <div class="container">
+      <div class="section-title-wrap">
+        <span class="section-tag">Proven Track Record</span>
+        <h2 class="section-title">FEATURED SUCCESS STORIES</h2>
+        <p class="section-desc">
+          Trusted by leading global brands to deliver measurable impact, drive shop-floor efficiency, and achieve operational excellence.
+        </p>
+      </div>
+
+      <div class="bento-grid">
+        <!-- KIA Case -->
+        <div class="col-6">
+          <div class="glass-card tilt-card">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+              <span style="font-weight:800; font-size:1.4rem; color:#E10600; font-family:var(--font-display);">KIA MOTORS</span>
+              <span class="badge badge-iso">Anantapur, India</span>
+            </div>
+            <h4 style="margin-bottom:0.75rem;">DC Nut Runner Enhancement &amp; SETU Platform</h4>
+            <p style="font-size:0.92rem; margin-bottom:1.25rem;">
+              Resolved system and data storage issues, implemented VIN-based program selection, automatic line interlock for NOK conditions, and 100% OTP-controlled security.
+            </p>
+            <div style="display:flex; gap:1.5rem; border-top:1px solid rgba(255,255,255,0.08); padding-top:1rem; margin-bottom:1.5rem;">
+              <div>
+                <div style="font-size:1.35rem; font-weight:800; color:var(--accent-cyan);">100%</div>
+                <div style="font-size:0.75rem; color:var(--text-muted); font-family:var(--font-mono);">DATA INTEGRITY</div>
+              </div>
+              <div>
+                <div style="font-size:1.35rem; font-weight:800; color:var(--accent-blue);">0</div>
+                <div style="font-size:0.75rem; color:var(--text-muted); font-family:var(--font-mono);">UNAUTHORIZED DOWNTIME</div>
+              </div>
+              <div>
+                <div style="font-size:1.35rem; font-weight:800; color:#00E676;">REAL-TIME</div>
+                <div style="font-size:0.75rem; color:var(--text-muted); font-family:var(--font-mono);">TORQUE MONITORING</div>
+              </div>
+            </div>
+            <a href="success-stories.html#kia-setu" class="btn btn-secondary btn-sm">Read Full Case Study &rarr;</a>
+          </div>
+        </div>
+
+        <!-- VinFast Case -->
+        <div class="col-6">
+          <div class="glass-card tilt-card">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+              <span style="font-weight:800; font-size:1.4rem; color:#FFFFFF; font-family:var(--font-display);">VINFAST</span>
+              <span class="badge badge-iso">Thoothukudi, India</span>
+            </div>
+            <h4 style="margin-bottom:0.75rem;">E-Motor Flashing for EDS (CAN UDS Protocol)</h4>
+            <p style="font-size:0.92rem; margin-bottom:1.25rem;">
+              Engineered high-speed automated firmware flashing to EDS devices via CAN UDS with encrypted key provisioning, firmware validation, and 100% programming success rate.
+            </p>
+            <div style="display:flex; gap:1.5rem; border-top:1px solid rgba(255,255,255,0.08); padding-top:1rem; margin-bottom:1.5rem;">
+              <div>
+                <div style="font-size:1.35rem; font-weight:800; color:#00E676;">100%</div>
+                <div style="font-size:0.75rem; color:var(--text-muted); font-family:var(--font-mono);">FLASHING SUCCESS</div>
+              </div>
+              <div>
+                <div style="font-size:1.35rem; font-weight:800; color:var(--accent-cyan);">-60%</div>
+                <div style="font-size:0.75rem; color:var(--text-muted); font-family:var(--font-mono);">TRACKING TIME</div>
+              </div>
+              <div>
+                <div style="font-size:1.35rem; font-weight:800; color:var(--accent-blue);">ISO 14229</div>
+                <div style="font-size:0.75rem; color:var(--text-muted); font-family:var(--font-mono);">CAN UDS PROTOCOL</div>
+              </div>
+            </div>
+            <a href="success-stories.html#vinfast-flashing" class="btn btn-secondary btn-sm">Read Full Case Study &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 2.5rem;">
+        <a href="success-stories.html" class="btn btn-primary">
+          View All Case Studies (L&amp;T, Jeeni, Aditya Birla) &rarr;
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner Section (Slide 24) -->
+  <section class="section" style="background: linear-gradient(135deg, rgba(10, 20, 40, 0.95) 0%, rgba(5, 11, 24, 0.98) 100%); border-top: 1px solid var(--border-light);">
+    <div class="container text-center" style="text-align: center;">
+      <span class="section-tag">Ready to Transform Your Operations?</span>
+      <h2 style="font-size: clamp(2rem, 4vw, 3.2rem); margin-bottom: 1.25rem;">
+        LET'S BUILD THE <span class="text-gradient-accent">SMART FACTORY</span> TOGETHER
+      </h2>
+      <p style="max-width: 650px; margin: 0 auto 2.5rem; font-size: 1.15rem; color: var(--text-secondary);">
+        Partner with ViShruTa to accelerate your journey towards intelligent automation, digital traceability and operational excellence.
+      </p>
+
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="contact.html" class="btn btn-primary">Contact Engineering Team</a>
+        <a href="tel:+919663375272" class="btn btn-secondary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+          Call +91 9663375272
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer (Slide 24) -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo-brand" aria-label="ViShruTa Home">
+            <img src="images/logo.png" alt="ViShruTa – Digital Technology Solutions" class="logo-img">
+          </a>
+          <p>
+            Smart Solutions. Stronger Industries. Building intelligent technology, automation and traceability platforms for tomorrow's manufacturing leaders.
+          </p>
+          <div style="margin-top: 1.25rem;">
+            <span class="badge badge-iso">ISO 27001 Certified Company</span>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Solutions</h4>
+          <ul class="footer-links">
+            <li><a href="solutions.html#industrial-iot" class="footer-link">Industrial IoT</a></li>
+            <li><a href="solutions.html#vision-ai" class="footer-link">Vision AI</a></li>
+            <li><a href="solutions.html#data-acquisition" class="footer-link">Data Acquisition</a></li>
+            <li><a href="solutions.html#automation" class="footer-link">Automation</a></li>
+            <li><a href="solutions.html#rfid-solutions" class="footer-link">RFID Solutions</a></li>
+            <li><a href="solutions.html#firmware-flashing" class="footer-link">Firmware Flashing</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Products</h4>
+          <ul class="footer-links">
+            <li><a href="product-setu.html" class="footer-link">SETU Portal</a></li>
+            <li><a href="product-varna.html" class="footer-link">VarNa OCR System</a></li>
+            <li><a href="product-chatur.html" class="footer-link">ChatuR Detection</a></li>
+            <li><a href="product-marga-chinh.html" class="footer-link">Marga Chinh Trace</a></li>
+            <li><a href="control-instrumentation.html" class="footer-link">Control &amp; Panels</a></li>
+            <li><a href="technology.html" class="footer-link">Technology Stack</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Company</h4>
+          <ul class="footer-links">
+            <li><a href="about.html" class="footer-link">About ViShruTa</a></li>
+            <li><a href="industries.html" class="footer-link">Industries Served</a></li>
+            <li><a href="success-stories.html" class="footer-link">Success Stories</a></li>
+            <li><a href="clients.html" class="footer-link">Our Clients</a></li>
+            <li><a href="contact.html" class="footer-link">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Contact Info</h4>
+          <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 0.75rem;">
+            <strong>Vishruta Enterprises</strong><br>
+            Malleshwaram, Bangalore<br>
+            Karnataka - 560003, India
+          </p>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.4rem;">
+            <strong>Hemanth Jayaram:</strong><br>
+            <a href="tel:9663375272" style="color:var(--accent-cyan);">9663375272</a> | <a href="mailto:hemanth@vishruta.co.in" style="color:var(--text-secondary);">hemanth@vishruta.co.in</a>
+          </p>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">
+            <strong>Naveena N:</strong><br>
+            <a href="tel:7892508186" style="color:var(--accent-cyan);">7892508186</a> | <a href="mailto:naveen@vishruta.co.in" style="color:var(--text-secondary);">naveen@vishruta.co.in</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 ViShruTa – Digital Technology Solutions. All rights reserved.
+        </div>
+        <div style="display:flex; gap:1.5rem; align-items:center;">
+          <span>Engineering a Smarter Tomorrow</span>
+          <span>•</span>
+          <a href="https://www.vishruta.co.in" target="_blank" rel="noopener" style="color:var(--accent-cyan);">www.vishruta.co.in</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Actions (WhatsApp & Back-to-Top) -->
+  <div class="floating-actions">
+    <a href="https://wa.me/919663375272?text=Hello%20ViShruTa%20Team%2C%20I%20would%20like%20to%20inquire%20about%20your%20industrial%20solutions." target="_blank" rel="noopener" class="btn-float btn-float-whatsapp" aria-label="Contact on WhatsApp">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.301-.15-1.78-.879-2.056-.98-.276-.1-.477-.15-.678.15-.2.301-.778.98-.953 1.181-.176.2-.351.226-.653.075-1.528-.765-2.822-1.92-3.766-3.328-.188-.282.02-.436.17-.678.136-.219.301-.527.452-.79.151-.264.075-.49-.038-.716-.113-.226-.678-1.634-.929-2.238-.244-.588-.492-.508-.678-.517-.176-.01-.377-.01-.578-.01-.2 0-.528.075-.804.377-.276.301-1.055 1.03-1.055 2.512 0 1.482 1.08 2.914 1.231 3.115.151.2 2.124 3.243 5.147 4.55.719.311 1.28.497 1.718.636.722.23 1.378.197 1.897.12.578-.088 1.78-.728 2.03-1.431.251-.703.251-1.306.176-1.431-.076-.126-.277-.202-.578-.352zM12 2C6.477 2 2 6.477 2 12c0 1.77.46 3.435 1.264 4.887L2 22l5.244-1.227A9.957 9.957 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+    </a>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/network-canvas.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

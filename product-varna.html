@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VarNa – Smart Character Recognition System | ViShruTa AI Vision</title>
+  <meta name="description" content="VarNa AI OCR by ViShruTa: Accurate text recognition from industrial images under tough conditions (metal embossing, engraving, low contrast) by simply drawing a box.">
+  
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23050B18'/%3E%3Cpath d='M6 10h6l4 12 4-12h6' stroke='%23E10600' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3Ccircle cx='24' cy='10' r='2' fill='%2300F0FF'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <div class="scroll-progress"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container navbar">
+      <a href="index.html" class="logo-brand" aria-label="ViShruTa Home">
+        <img src="images/logo.png" alt="ViShruTa – Digital Technology Solutions" class="logo-img">
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="solutions.html" class="nav-link">Solutions</a></li>
+          <li class="nav-item">
+            <a href="products.html" class="nav-link active">
+              Products
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="product-setu.html" class="dropdown-link"><span style="color:var(--product-setu)">●</span> SETU (Secured Tracking)</a></li>
+              <li><a href="product-varna.html" class="dropdown-link active"><span style="color:var(--product-varna)">●</span> VarNa (Character OCR)</a></li>
+              <li><a href="product-chatur.html" class="dropdown-link"><span style="color:var(--product-chatur)">●</span> ChatuR (Human Detection)</a></li>
+              <li><a href="product-marga-chinh.html" class="dropdown-link"><span style="color:var(--product-marga)">●</span> Marga Chinh (Track & Trace)</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="industries.html" class="nav-link">Industries</a></li>
+          <li class="nav-item"><a href="success-stories.html" class="nav-link">Success Stories</a></li>
+          <li class="nav-item"><a href="control-instrumentation.html" class="nav-link">C &amp; I</a></li>
+          <li class="nav-item"><a href="technology.html" class="nav-link">Technology</a></li>
+          <li class="nav-item"><a href="clients.html" class="nav-link">Clients</a></li>
+          <li class="nav-item"><a href="contact.html" class="btn btn-primary btn-sm">Talk to Us</a></li>
+        </ul>
+      </nav>
+
+      <button class="mobile-toggle" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Product Hero (Slide 9) -->
+  <section class="section" style="padding-top: calc(var(--nav-height) + 4rem); padding-bottom: 3rem;">
+    <div class="container">
+      <div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:1rem;">
+        <span class="badge" style="background:rgba(0,230,118,0.15); color:var(--product-varna); border-color:var(--product-varna);">AI VISION &amp; OCR</span>
+        <span class="badge badge-iso">INDUSTRIAL MACHINE LEARNING</span>
+      </div>
+      
+      <h1 style="margin-bottom: 1rem;">
+        <span style="color:var(--product-varna);">VarNa</span> : SMART CHARACTER RECOGNITION SYSTEM
+      </h1>
+      <p style="font-size: 1.3rem; color: var(--text-secondary); max-width: 840px; line-height: 1.6; margin-bottom: 2rem;">
+        AI-powered system for accurate text recognition from images under challenging conditions with minimal manual input.
+      </p>
+
+      <div class="glass-card" style="border-left: 4px solid var(--product-varna); max-width: 900px; margin-bottom: 3rem;">
+        <div style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--product-varna); text-transform: uppercase; margin-bottom: 0.5rem; letter-spacing: 0.05em;">
+          OBJECTIVE
+        </div>
+        <p style="font-size: 1.15rem; color: #FFFFFF; font-weight: 500;">
+          To enable accurate, reliable, and automated text recognition from images—even under challenging conditions such as incomplete characters, shading, smudges, and major visual defects—through a simple user interaction (just drawing a box).
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Platform Overview (Slide 9) -->
+  <section class="section-tight" style="background: rgba(5, 11, 24, 0.85); border-top: 1px solid var(--border-light); border-bottom: 1px solid var(--border-light);">
+    <div class="container">
+      <div class="section-title-wrap text-center" style="text-align: center;">
+        <span class="section-tag">Platform Overview</span>
+        <h2 class="section-title">CORE CAPABILITIES &amp; ARCHITECTURE</h2>
+        <p class="section-desc" style="margin: 0 auto; max-width: 760px;">
+          VarNa brings state-of-the-art computer vision to industrial inspection, eliminating complex model training and delivering sub-second character recognition directly on the line.
+        </p>
+      </div>
+
+      <div class="bento-grid">
+        <div class="col-3">
+          <div class="glass-card" style="height:100%; border-top: 3px solid var(--product-varna);">
+            <div style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--product-varna); margin-bottom: 0.5rem; font-weight: 700;">
+              01 / ACCURACY
+            </div>
+            <h3 style="font-size: 1.15rem; color: #FFFFFF; margin-bottom: 0.5rem;">High Accuracy</h3>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">
+              Trained specifically on industrial typography, dot matrix stamping, metal embossing, and engraved serials, achieving reliable reading where standard OCR fails.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="glass-card" style="height:100%; border-top: 3px solid var(--product-varna);">
+            <div style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--product-varna); margin-bottom: 0.5rem; font-weight: 700;">
+              02 / INTELLIGENCE
+            </div>
+            <h3 style="font-size: 1.15rem; color: #FFFFFF; margin-bottom: 0.5rem;">AI &amp; ML Powered</h3>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">
+              Deep learning vision models dynamically compensate for uneven lighting, shadows, surface glare, metal grain, and background distortion without manual threshold tuning.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="glass-card" style="height:100%; border-top: 3px solid var(--product-varna);">
+            <div style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--product-varna); margin-bottom: 0.5rem; font-weight: 700;">
+              03 / PERFORMANCE
+            </div>
+            <h3 style="font-size: 1.15rem; color: #FFFFFF; margin-bottom: 0.5rem;">Fast &amp; Stable</h3>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">
+              Optimized inference engine running at sub-second speeds on industrial PCs and edge devices, easily matching continuous high-speed production and sorting lines.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="glass-card" style="height:100%; border-top: 3px solid var(--product-varna);">
+            <div style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--product-varna); margin-bottom: 0.5rem; font-weight: 700;">
+              04 / SIMPLICITY
+            </div>
+            <h3 style="font-size: 1.15rem; color: #FFFFFF; margin-bottom: 0.5rem;">Easy Integration</h3>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">
+              Zero deep learning expertise needed by operators. Integrates directly with industrial cameras, PLCs, SCADA, MES, and ERP systems via standard industrial protocols.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Architecture (Slide 9) -->
+  <section class="section">
+    <div class="container">
+      <div class="section-title-wrap text-center" style="text-align: center;">
+        <span class="section-tag">Operational Workflow</span>
+        <h2 class="section-title">HOW VarNa RECOGNITION WORKS</h2>
+        <p class="section-desc" style="margin: 0 auto; max-width: 760px;">
+          Seamless 5-stage automated optical character recognition pipeline designed for minimal setup and maximum line efficiency.
+        </p>
+      </div>
+
+      <div class="flow-diagram">
+        <div class="flow-step-node">
+          <div class="flow-node-icon" style="border-color: var(--product-varna);">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </div>
+          <div class="flow-node-title">1. Image Acquisition</div>
+          <div class="flow-node-desc">Camera captures product surface on conveyor</div>
+        </div>
+
+        <div style="color:var(--product-varna); font-size:1.5rem;">➔</div>
+
+        <div class="flow-step-node">
+          <div class="flow-node-icon" style="border-color: var(--product-varna);">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="9" y1="9" x2="15" y2="9"/><line x1="12" y1="9" x2="12" y2="15"/></svg>
+          </div>
+          <div class="flow-node-title">2. Draw Target Box</div>
+          <div class="flow-node-desc">Operator draws region of interest with zero coding</div>
+        </div>
+
+        <div style="color:var(--product-varna); font-size:1.5rem;">➔</div>
+
+        <div class="flow-step-node">
+          <div class="flow-node-icon" style="border-color: var(--product-varna);">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <div class="flow-node-title">3. Neural Extraction</div>
+          <div class="flow-node-desc">AI isolates characters from noise &amp; shadows</div>
+        </div>
+
+        <div style="color:var(--product-varna); font-size:1.5rem;">➔</div>
+
+        <div class="flow-step-node">
+          <div class="flow-node-icon" style="border-color: var(--product-varna);">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <div class="flow-node-title">4. Auto Verification</div>
+          <div class="flow-node-desc">Validates against ERP / barcode master database</div>
+        </div>
+
+        <div style="color:var(--product-varna); font-size:1.5rem;">➔</div>
+
+        <div class="flow-step-node">
+          <div class="flow-node-icon" style="border-color: var(--product-varna);">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <div class="flow-node-title">5. Pass/Fail Signal</div>
+          <div class="flow-node-desc">Instant trigger sent to PLC &amp; local audit log</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Challenging Conditions Handled (Slide 9) -->
+  <section class="section">
+    <div class="container">
+      <div class="section-title-wrap">
+        <span class="section-tag">Tested on Extreme Production Lines</span>
+        <h2 class="section-title">CHALLENGING CONDITIONS HANDLED</h2>
+        <p class="section-desc">VarNa thrives where conventional OCR systems fail, delivering consistent high-speed verification across noisy industrial substrates.</p>
+      </div>
+
+      <div class="bento-grid">
+        <div class="col-3">
+          <div class="glass-card" style="text-align:center;">
+            <div style="font-size:1.5rem; margin-bottom:0.5rem; color:var(--product-varna);">⚡</div>
+            <h4 style="color:#FFFFFF; font-size:1rem; margin-bottom:0.25rem;">Metal Embossing</h4>
+            <p style="font-size:0.8rem; color:var(--text-muted);">Stamped serials on stamped sheet metal &amp; engine blocks.</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="glass-card" style="text-align:center;">
+            <div style="font-size:1.5rem; margin-bottom:0.5rem; color:var(--product-varna);">⚡</div>
+            <h4 style="color:#FFFFFF; font-size:1rem; margin-bottom:0.25rem;">Narrow Pitch</h4>
+            <p style="font-size:0.8rem; color:var(--text-muted);">Ultra-dense character printing on electronic micro-components.</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="glass-card" style="text-align:center;">
+            <div style="font-size:1.5rem; margin-bottom:0.5rem; color:var(--product-varna);">⚡</div>
+            <h4 style="color:#FFFFFF; font-size:1rem; margin-bottom:0.25rem;">Deformed Text</h4>
+            <p style="font-size:0.8rem; color:var(--text-muted);">Stretched, bent, or distorted packaging thermal prints.</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="glass-card" style="text-align:center;">
+            <div style="font-size:1.5rem; margin-bottom:0.5rem; color:var(--product-varna);">⚡</div>
+            <h4 style="color:#FFFFFF; font-size:1rem; margin-bottom:0.25rem;">Low Contrast</h4>
+            <p style="font-size:0.8rem; color:var(--text-muted);">Dark ink on dark plastic or faded laser etchings.</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="glass-card" style="text-align:center;">
+            <div style="font-size:1.5rem; margin-bottom:0.5rem; color:var(--product-varna);">⚡</div>
+            <h4 style="color:#FFFFFF; font-size:1rem; margin-bottom:0.25rem;">Engraving</h4>
+            <p style="font-size:0.8rem; color:var(--text-muted);">Laser-engraved VINs on automotive chassis panels.</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="glass-card" style="text-align:center;">
+            <div style="font-size:1.5rem; margin-bottom:0.5rem; color:var(--product-varna);">⚡</div>
+            <h4 style="color:#FFFFFF; font-size:1rem; margin-bottom:0.25rem;">Embossing</h4>
+            <p style="font-size:0.8rem; color:var(--text-muted);">Raised alphanumeric batch codes on blister foils.</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="glass-card" style="text-align:center;">
+            <div style="font-size:1.5rem; margin-bottom:0.5rem; color:var(--product-varna);">⚡</div>
+            <h4 style="color:#FFFFFF; font-size:1rem; margin-bottom:0.25rem;">SEMI Font</h4>
+            <p style="font-size:0.8rem; color:var(--text-muted);">Specialized semiconductor wafer identification markings.</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="glass-card" style="text-align:center;">
+            <div style="font-size:1.5rem; margin-bottom:0.5rem; color:var(--product-varna);">⚡</div>
+            <h4 style="color:#FFFFFF; font-size:1rem; margin-bottom:0.25rem;">Arced / Curved</h4>
+            <p style="font-size:0.8rem; color:var(--text-muted);">Curved bottle caps, radial bearings &amp; pipe contours.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What VarNa Detects & Benefits (Slide 9) -->
+  <section class="section" style="background: rgba(10, 20, 40, 0.6); border-top: 1px solid var(--border-light);">
+    <div class="container">
+      <div class="bento-grid">
+        <div class="col-6">
+          <span class="section-tag">Detection Capabilities</span>
+          <h3 style="margin-bottom: 1.5rem; color: #FFFFFF;">WHAT VarNa DETECTS</h3>
+          <ul style="list-style:none; display:flex; flex-direction:column; gap:1rem;">
+            <li class="glass-card" style="padding:1rem 1.25rem; display:flex; align-items:center; gap:0.75rem;">
+              <span style="color:var(--product-varna); font-weight:bold;">✓</span> Incomplete Characters (broken strokes, dot matrix dropouts)
+            </li>
+            <li class="glass-card" style="padding:1rem 1.25rem; display:flex; align-items:center; gap:0.75rem;">
+              <span style="color:var(--product-varna); font-weight:bold;">✓</span> Shaded Characters &amp; ambient shadow interference
+            </li>
+            <li class="glass-card" style="padding:1rem 1.25rem; display:flex; align-items:center; gap:0.75rem;">
+              <span style="color:var(--product-varna); font-weight:bold;">✓</span> Major Visual Defects (smudges, scratches, over-inking)
+            </li>
+            <li class="glass-card" style="padding:1rem 1.25rem; display:flex; align-items:center; gap:0.75rem;">
+              <span style="color:var(--product-varna); font-weight:bold;">✓</span> Special Characters &amp; Symbols (&amp;, #, *, $, %, @)
+            </li>
+            <li class="glass-card" style="padding:1rem 1.25rem; display:flex; align-items:center; gap:0.75rem;">
+              <span style="color:var(--product-varna); font-weight:bold;">✓</span> Brand Logos, Custom Icons and Variable Fonts
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-6">
+          <span class="section-tag">Business Value</span>
+          <h3 style="margin-bottom: 1.5rem; color: #FFFFFF;">KEY BENEFITS</h3>
+          <div style="display:flex; flex-direction:column; gap:1.25rem;">
+            <div class="glass-card">
+              <h4 style="color:#FFFFFF; margin-bottom:0.25rem;">Robust Recognition</h4>
+              <p style="font-size:0.88rem; color:var(--text-secondary);">Works reliably across a wide range of real-world factory floor conditions without requiring recalibration.</p>
+            </div>
+            <div class="glass-card">
+              <h4 style="color:#FFFFFF; margin-bottom:0.25rem;">Higher Efficiency</h4>
+              <p style="font-size:0.88rem; color:var(--text-secondary);">Reduces manual verification and human inspection fatigue while significantly accelerating line throughput.</p>
+            </div>
+            <div class="glass-card">
+              <h4 style="color:#FFFFFF; margin-bottom:0.25rem;">Cost Effective</h4>
+              <p style="font-size:0.88rem; color:var(--text-secondary);">Minimizes scrap errors and operational overhead caused by misread serial numbers and incorrect part mating.</p>
+            </div>
+            <div class="glass-card">
+              <h4 style="color:#FFFFFF; margin-bottom:0.25rem;">Versatile Applications</h4>
+              <p style="font-size:0.88rem; color:var(--text-secondary);">Ideal for automotive, electronics, pharmaceutical serialization, FMCG and general precision engineering.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo-brand" aria-label="ViShruTa Home">
+            <img src="images/logo.png" alt="ViShruTa – Digital Technology Solutions" class="logo-img">
+          </a>
+          <p>
+            Smart Solutions. Stronger Industries. Building intelligent technology, automation and traceability platforms for tomorrow's manufacturing leaders.
+          </p>
+          <div style="margin-top: 1.25rem;">
+            <span class="badge badge-iso">ISO 27001 Certified Company</span>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Solutions</h4>
+          <ul class="footer-links">
+            <li><a href="solutions.html#industrial-iot" class="footer-link">Industrial IoT</a></li>
+            <li><a href="solutions.html#vision-ai" class="footer-link">Vision AI</a></li>
+            <li><a href="solutions.html#data-acquisition" class="footer-link">Data Acquisition</a></li>
+            <li><a href="solutions.html#automation" class="footer-link">Automation</a></li>
+            <li><a href="solutions.html#rfid-solutions" class="footer-link">RFID Solutions</a></li>
+            <li><a href="solutions.html#firmware-flashing" class="footer-link">Firmware Flashing</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Products</h4>
+          <ul class="footer-links">
+            <li><a href="product-setu.html" class="footer-link">SETU Portal</a></li>
+            <li><a href="product-varna.html" class="footer-link">VarNa OCR System</a></li>
+            <li><a href="product-chatur.html" class="footer-link">ChatuR Detection</a></li>
+            <li><a href="product-marga-chinh.html" class="footer-link">Marga Chinh Trace</a></li>
+            <li><a href="control-instrumentation.html" class="footer-link">Control &amp; Panels</a></li>
+            <li><a href="technology.html" class="footer-link">Technology Stack</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Company</h4>
+          <ul class="footer-links">
+            <li><a href="about.html" class="footer-link">About ViShruTa</a></li>
+            <li><a href="industries.html" class="footer-link">Industries Served</a></li>
+            <li><a href="success-stories.html" class="footer-link">Success Stories</a></li>
+            <li><a href="clients.html" class="footer-link">Our Clients</a></li>
+            <li><a href="contact.html" class="footer-link">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Contact Info</h4>
+          <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 0.75rem;">
+            <strong>Vishruta Enterprises</strong><br>
+            Malleshwaram, Bangalore<br>
+            Karnataka - 560003, India
+          </p>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.4rem;">
+            <strong>Hemanth Jayaram:</strong><br>
+            <a href="tel:9663375272" style="color:var(--accent-cyan);">9663375272</a> | <a href="mailto:hemanth@vishruta.co.in" style="color:var(--text-secondary);">hemanth@vishruta.co.in</a>
+          </p>
+          <p style="font-size: 0.85rem; color: var(--text-muted);">
+            <strong>Naveena N:</strong><br>
+            <a href="tel:7892508186" style="color:var(--accent-cyan);">7892508186</a> | <a href="mailto:naveen@vishruta.co.in" style="color:var(--text-secondary);">naveen@vishruta.co.in</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 ViShruTa – Digital Technology Solutions. All rights reserved.
+        </div>
+        <div style="display:flex; gap:1.5rem; align-items:center;">
+          <span>Engineering a Smarter Tomorrow</span>
+          <span>•</span>
+          <a href="https://www.vishruta.co.in" target="_blank" rel="noopener" style="color:var(--accent-cyan);">www.vishruta.co.in</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="floating-actions">
+    <a href="https://wa.me/919663375272?text=Hello%20ViShruTa%20Team%2C%20I%20would%20like%20to%20inquire%20about%20VarNa." target="_blank" rel="noopener" class="btn-float btn-float-whatsapp" aria-label="WhatsApp">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.301-.15-1.78-.879-2.056-.98-.276-.1-.477-.15-.678.15-.2.301-.778.98-.953 1.181-.176.2-.351.226-.653.075-1.528-.765-2.822-1.92-3.766-3.328-.188-.282.02-.436.17-.678.136-.219.301-.527.452-.79.151-.264.075-.49-.038-.716-.113-.226-.678-1.634-.929-2.238-.244-.588-.492-.508-.678-.517-.176-.01-.377-.01-.578-.01-.2 0-.528.075-.804.377-.276.301-1.055 1.03-1.055 2.512 0 1.482 1.08 2.914 1.231 3.115.151.2 2.124 3.243 5.147 4.55.719.311 1.28.497 1.718.636.722.23 1.378.197 1.897.12.578-.088 1.78-.728 2.03-1.431.251-.703.251-1.306.176-1.431-.076-.126-.277-.202-.578-.352zM12 2C6.477 2 2 6.477 2 12c0 1.77.46 3.435 1.264 4.887L2 22l5.244-1.227A9.957 9.957 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+    </a>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/interactive-demos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
