@@ -195,10 +195,10 @@ function initContactForm() {
       form.reset();
 
       // Show success modal or banner
-      alert(`Thank you, ${name}! Your inquiry has been received. Our team will contact you shortly.\n\nFallback direct emails:\n• hemanth@vishruta.co.in\n• naveen@vishruta.co.in`);
+      alert(`Thank you, ${name}! Your inquiry has been received. Our team will contact you shortly.\n\nDirect contact email: scm.vishruta@gmail.com`);
 
       // Also trigger mailto fallback link option
-      window.location.href = `mailto:hemanth@vishruta.co.in,naveen@vishruta.co.in?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent("Name: " + name + "\nEmail: " + email + "\n\nMessage:\n" + message)}`;
+      window.location.href = `mailto:scm.vishruta@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent("Name: " + name + "\nEmail: " + email + "\n\nMessage:\n" + message)}`;
     }, 1000);
   });
 }

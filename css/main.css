@@ -766,15 +766,16 @@ a {
   transform: scale(1.1);
 }
 
-.btn-float-whatsapp {
-  background: #25D366;
-  border-color: #25D366;
+.btn-float-email {
+  background: linear-gradient(135deg, var(--brand-red), var(--accent-blue));
+  border-color: rgba(255, 255, 255, 0.2);
   color: #FFFFFF;
-  box-shadow: 0 8px 24px rgba(37, 211, 102, 0.4);
+  box-shadow: 0 8px 24px rgba(225, 6, 0, 0.4);
 }
 
-.btn-float-whatsapp:hover {
-  background: #20BA5A;
+.btn-float-email:hover {
+  background: linear-gradient(135deg, #FF1A1A, var(--accent-cyan));
+  transform: scale(1.1);
 }
 
 /* Scroll Progress Bar */

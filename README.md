@@ -66,11 +66,10 @@ The visual direction follows an award-grade (Awwwards / CSS Design Awards level)
 | **ChatuR** | `product-chatur.html` | Smart Human Detection AI & night CCTV simulation |
 | **Marga Chinh** | `product-marga-chinh.html` | Track & Trace Platform & interactive supply chain flow |
 | **Industries** | `industries.html` | Automotive, FMCG, Food, Pharma, Engineering, and Chemical tiles |
-| **Success Stories** | `success-stories.html` | Filterable case studies: KIA Motors, VinFast, L&T, Jeeni, Aditya Birla with multi-tier architectures |
 | **Control & Instrumentation** | `control-instrumentation.html` | 4 service blocks & PLC Panel Wiring gallery with lightbox |
 | **Technology Stack** | `technology.html` | Multi-vendor matrix: Siemens, Allen-Bradley, Delta, Schneider, Mitsubishi, Omron, LS, Yaskawa, LC |
 | **Clients** | `clients.html` | All 13+ client showcase, "30+ Happy Customers", sector metadata |
-| **Contact** | `contact.html` | Formspree/Web3Forms form, direct contacts (Hemanth Jayaram & Naveena N), Malleshwaram address, WhatsApp |
+| **Contact** | `contact.html` | Inquiry form, official email (scm.vishruta@gmail.com), Malleshwaram address |
 | **404** | `404.html` | Futuristic "Industrial Node Disconnected" radar recovery page |
 
 ---
@@ -81,7 +80,6 @@ All text copy, statistical numbers, product features, client names, and contact 
 ```
 js/data.js
 ```
-To update phone numbers, team leads, product descriptions, or new case studies, edit `js/data.js` and the corresponding HTML elements.
 
 ---
 
@@ -104,7 +102,7 @@ Because this site is built as clean, zero-build static HTML5, CSS3, and modern E
 ### Option 3: GitHub Pages
 1. Push the repository to GitHub.
 2. Go to **Settings** ➔ **Pages**.
-3. Under **Branch**, select `main` (or `master`) and directory `/ (root)`.
+3. Under **Branch**, select `main` and directory `/ (root)`.
 4. Click **Save**. The website will be live at `https://<username>.github.io/<repo-name>/`.
 
 ---
@@ -114,9 +112,4 @@ Because this site is built as clean, zero-build static HTML5, CSS3, and modern E
 - **Company**: Vishruta Enterprises (ViShruTa – Digital Technology Solutions)
 - **Address**: Malleshwaram, Bangalore, Karnataka - 560003, India
 - **Website**: [www.vishruta.co.in](https://www.vishruta.co.in)
-- **Technical & Solutions Lead**: Hemanth Jayaram  
-  - Phone: `+91 9663375272`  
-  - Email: `hemanth@vishruta.co.in`
-- **Engineering Lead**: Naveena N  
-  - Phone: `+91 7892508186`  
-  - Email: `naveen@vishruta.co.in`
+- **Contact Email**: `scm.vishruta@gmail.com`

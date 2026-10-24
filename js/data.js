@@ -32,22 +32,7 @@ window.ViShruTaData = {
       iso: "ISO 27001",
       isoLabel: "Certified for Information Security"
     },
-    contacts: [
-      {
-        name: "Hemanth Jayaram",
-        phone: "+91 9663375272",
-        rawPhone: "9663375272",
-        email: "hemanth@vishruta.co.in",
-        role: "Technical & Commercial Lead"
-      },
-      {
-        name: "Naveena N",
-        phone: "+91 7892508186",
-        rawPhone: "7892508186",
-        email: "naveen@vishruta.co.in",
-        role: "Engineering & Solutions Lead"
-      }
-    ],
+    contactEmail: "scm.vishruta@gmail.com",
     address: {
       entity: "Vishruta Enterprises",
       street: "Malleshwaram",
