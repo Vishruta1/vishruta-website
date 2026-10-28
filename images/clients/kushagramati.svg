@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="100%" height="100%">
+  <!-- Kushagramati Hex-Node Tech Emblem -->
+  <g transform="translate(18, 16)">
+    <!-- Tech Diamond & Chevrons -->
+    <polygon points="24,2 46,24 24,46 2,24" fill="none" stroke="#38BDF8" stroke-width="2.5"/>
+    <polygon points="24,10 38,24 24,38 10,24" fill="rgba(56,189,248,0.15)" stroke="#60A5FA" stroke-width="1.5"/>
+    <circle cx="24" cy="24" r="5" fill="#00F0FF"/>
+    <circle cx="24" cy="2" r="3" fill="#FFFFFF"/>
+    <circle cx="46" cy="24" r="3" fill="#FFFFFF"/>
+    <circle cx="24" cy="46" r="3" fill="#FFFFFF"/>
+    <circle cx="2" cy="24" r="3" fill="#FFFFFF"/>
+  </g>
+  <!-- Wordmark -->
+  <g transform="translate(80, 0)">
+    <text x="0" y="38" font-family="'Inter', 'Arial Black', sans-serif" font-weight="900" font-size="16" fill="#38BDF8" letter-spacing="2">KUSHAGRAMATI</text>
+    <text x="0" y="54" font-family="'Inter', sans-serif" font-weight="600" font-size="9" fill="#FFFFFF" letter-spacing="1.5">INTELLIGENT SYSTEMS</text>
+    <text x="0" y="67" font-family="'Inter', sans-serif" font-weight="500" font-size="7.5" fill="#94A3B8" letter-spacing="1">A PEOPLE-FIRST COMPANY</text>
+  </g>
+</svg>

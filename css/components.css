@@ -367,6 +367,52 @@
   white-space: nowrap;
 }
 
+/* Client Card Logo Display Styles */
+.client-logo-wrapper {
+  background: rgba(10, 20, 38, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95px;
+  margin-bottom: 1.25rem;
+  transition: all var(--transition-smooth);
+  position: relative;
+  overflow: hidden;
+}
+
+.glass-card:hover .client-logo-wrapper {
+  border-color: rgba(0, 240, 255, 0.4);
+  background: rgba(15, 30, 58, 0.9);
+  box-shadow: 0 8px 25px -6px rgba(0, 240, 255, 0.2);
+}
+
+.client-card-logo-img {
+  max-height: 58px;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  transition: transform var(--transition-smooth);
+}
+
+.glass-card:hover .client-card-logo-img {
+  transform: scale(1.04);
+}
+
+.marquee-logo-img {
+  height: 32px;
+  max-width: 110px;
+  object-fit: contain;
+  display: inline-block;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+
 /* Industrial Process & Operational Flow Architecture (SETU / VarNa / ChatuR / Marga Chinh) */
 .flow-diagram {
   display: flex;

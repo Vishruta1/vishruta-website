@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="100%" height="100%">
+  <!-- Daifuku Dynamic Trajectory Ribbon Emblem -->
+  <g transform="translate(16, 16)">
+    <!-- Dynamic curved flow arc -->
+    <path d="M 6 42 C 14 10 38 12 48 30 C 40 18 20 20 12 42 Z" fill="#E60012"/>
+    <circle cx="16" cy="36" r="6" fill="#004098"/>
+    <circle cx="36" cy="18" r="8" fill="#0072CE"/>
+    <circle cx="46" cy="34" r="5" fill="#38BDF8"/>
+  </g>
+  <!-- Daifuku Wordmark -->
+  <g transform="translate(80, 0)">
+    <text x="0" y="44" font-family="'Inter', 'Arial Black', sans-serif" font-weight="900" font-size="24" fill="#3B82F6" letter-spacing="3">DAIFUKU</text>
+    <text x="0" y="60" font-family="'Inter', sans-serif" font-weight="600" font-size="8.5" fill="#93C5FD" letter-spacing="2">AUTOMATION THAT INSPIRES</text>
+  </g>
+</svg>

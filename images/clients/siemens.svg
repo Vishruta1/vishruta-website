@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="100%" height="100%">
+  <!-- Siemens Official Petrol Teal Wordmark & Tagline -->
+  <g transform="translate(20, 20)">
+    <text x="0" y="28" font-family="'Inter', 'Arial Black', -apple-system, sans-serif" font-weight="900" font-size="28" fill="#00A3A6" letter-spacing="3.5">SIEMENS</text>
+    <text x="2" y="44" font-family="'Inter', sans-serif" font-weight="600" font-size="8.5" fill="#38BDF8" letter-spacing="2">INGENUITY FOR LIFE</text>
+  </g>
+  <!-- Modern Industrial Tech Accent Dot -->
+  <circle cx="210" cy="38" r="6" fill="#00F0FF"/>
+  <circle cx="210" cy="38" r="12" fill="none" stroke="#00A3A6" stroke-width="1.5" stroke-dasharray="3 3"/>
+</svg>

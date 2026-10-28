@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="100%" height="100%">
+  <defs>
+    <linearGradient id="vinfastGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#CBD5E1"/>
+      <stop offset="100%" stop-color="#64748B"/>
+    </linearGradient>
+  </defs>
+  <!-- VinFast Winged V Emblem -->
+  <g transform="translate(20, 16)">
+    <!-- Outer Wing V -->
+    <path d="M 0 4 C 12 18 20 32 26 44 C 32 32 40 18 52 4 C 44 14 36 26 26 34 C 16 26 8 14 0 4 Z" fill="url(#vinfastGrad)"/>
+    <!-- Inner Wing V -->
+    <path d="M 9 0 C 16 10 21 20 26 27 C 31 20 36 10 43 0 C 37 8 32 17 26 21 C 20 17 15 8 9 0 Z" fill="#00F0FF"/>
+  </g>
+  <!-- Wordmark -->
+  <g transform="translate(86, 0)">
+    <text x="0" y="44" font-family="'Inter', -apple-system, sans-serif" font-weight="900" font-size="22" fill="#FFFFFF" letter-spacing="3.5">VINFAST</text>
+    <text x="0" y="59" font-family="'Inter', sans-serif" font-weight="600" font-size="8.5" fill="#38BDF8" letter-spacing="2">BOUNDLESS TOGETHER</text>
+  </g>
+</svg>

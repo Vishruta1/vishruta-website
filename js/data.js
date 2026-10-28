@@ -26,7 +26,7 @@ window.ViShruTaData = {
       projects: "30+",
       projectsLabel: "Projects Successfully Delivered",
       clientsAbout: "15+",
-      clientsAboutLabel: "Enterprise Clients",
+      clientsAboutLabel: "Enterprise Clients Across India and Abroad",
       customersPage: "30+",
       customersPageLabel: "Happy Customers Worldwide",
       iso: "ISO 27001",
@@ -495,19 +495,19 @@ window.ViShruTaData = {
   ],
 
   clientsList: [
-    { name: "Larsen & Toubro", tag: "It's all about Imagineering", sector: "Engineering & Infrastructure" },
-    { name: "KIA Motors", tag: "Movement that inspires", sector: "Automotive" },
-    { name: "Toyota", tag: "Mobility for All", sector: "Automotive" },
-    { name: "VinFast", tag: "Boundless Together", sector: "Electric Vehicles" },
-    { name: "Aditya Birla Group", tag: "Taking India to the World", sector: "Conglomerate / Materials" },
-    { name: "Daikin", tag: "Perfecting the Air", sector: "HVAC & Manufacturing" },
-    { name: "Jeeni Millet Health Mix", tag: "Wholesome Health", sector: "Food & Beverage" },
-    { name: "Daifuku", tag: "Automation that Inspires", sector: "Intralogistics & Automation" },
-    { name: "Maruti Suzuki", tag: "Way of Life", sector: "Automotive" },
-    { name: "Siemens", tag: "Ingenuity for life", sector: "Industrial Automation" },
-    { name: "Amara Raja", tag: "Gotta be a better way", sector: "Energy & Electronics" },
-    { name: "Schneider Electric", tag: "Life Is On", sector: "Energy Management & Automation" },
-    { name: "Kushagramati", tag: "A People-First Company", sector: "Technology & Engineering" }
+    { name: "Larsen & Toubro", tag: "It's all about Imagineering", sector: "Engineering & Infrastructure", logo: "images/clients/lnt.svg" },
+    { name: "KIA Motors", tag: "Movement that inspires", sector: "Automotive", logo: "images/clients/kia.svg" },
+    { name: "Toyota", tag: "Mobility for All", sector: "Automotive", logo: "images/clients/toyota.svg" },
+    { name: "VinFast", tag: "Boundless Together", sector: "Electric Vehicles", logo: "images/clients/vinfast.svg" },
+    { name: "Aditya Birla Group", tag: "Taking India to the World", sector: "Conglomerate / Materials", logo: "images/clients/aditya-birla.svg" },
+    { name: "Daikin", tag: "Perfecting the Air", sector: "HVAC & Manufacturing", logo: "images/clients/daikin.svg" },
+    { name: "Jeeni Millet Health Mix", tag: "Wholesome Health", sector: "Food & Beverage", logo: "images/clients/jeeni.svg" },
+    { name: "Daifuku", tag: "Automation that Inspires", sector: "Intralogistics & Automation", logo: "images/clients/daifuku.svg" },
+    { name: "Maruti Suzuki", tag: "Way of Life", sector: "Automotive", logo: "images/clients/maruti-suzuki.svg" },
+    { name: "Siemens", tag: "Ingenuity for life", sector: "Industrial Automation", logo: "images/clients/siemens.svg" },
+    { name: "Amara Raja", tag: "Gotta be a better way", sector: "Energy & Electronics", logo: "images/clients/amara-raja.svg" },
+    { name: "Schneider Electric", tag: "Life Is On", sector: "Energy Management & Automation", logo: "images/clients/schneider.svg" },
+    { name: "Kushagramati", tag: "A People-First Company", sector: "Technology & Engineering", logo: "images/clients/kushagramati.svg" }
   ],
 
   technologyStack: {
