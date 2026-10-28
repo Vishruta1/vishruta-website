@@ -495,10 +495,10 @@ window.ViShruTaData = {
   ],
 
   clientsList: [
-    { name: "Larsen & Toubro", tag: "It's all about Imagineering", sector: "Engineering & Infrastructure", logo: "images/clients/lnt.svg" },
-    { name: "KIA Motors", tag: "Movement that inspires", sector: "Automotive", logo: "images/clients/kia.svg" },
+    { name: "Larsen & Toubro", tag: "It's all about Imagineering", sector: "Engineering & Infrastructure", logo: "images/clients/lnt.png" },
+    { name: "KIA Motors", tag: "Movement that inspires", sector: "Automotive", logo: "images/clients/kia.png" },
     { name: "Toyota", tag: "Mobility for All", sector: "Automotive", logo: "images/clients/toyota.svg" },
-    { name: "VinFast", tag: "Boundless Together", sector: "Electric Vehicles", logo: "images/clients/vinfast.svg" },
+    { name: "VinFast", tag: "Boundless Together", sector: "Electric Vehicles", logo: "images/clients/vinfast.png" },
     { name: "Aditya Birla Group", tag: "Taking India to the World", sector: "Conglomerate / Materials", logo: "images/clients/aditya-birla.png" },
     { name: "Daikin", tag: "Perfecting the Air", sector: "HVAC & Manufacturing", logo: "images/clients/daikin.svg" },
     { name: "Jeeni Millet Health Mix", tag: "Wholesome Health", sector: "Food & Beverage", logo: "images/clients/jeeni.png" },
